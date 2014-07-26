@@ -20,6 +20,9 @@ bld/
 [Tt]est[Rr]esult*/
 [Bb]uild[Ll]og.*
 
+#Nuget packages
+*.nupkg
+
 #NUNIT
 *.VisualState.xml
 TestResult.xml
