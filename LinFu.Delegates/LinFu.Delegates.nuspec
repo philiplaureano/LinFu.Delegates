@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>LinFu.Delegates</id>
+        <version>$version$</version>
+        <title>LinFu.Delegates</title>
+        <authors>Philip Laureano</authors>
+        <owners>Philip Laureano</owners>
+        <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+        <projectUrl>https://github.com/philiplaureano/LinFu.Delegates</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>A C# library for managing, creating, and binding to CLR delegates at runtime. Also includes partial application for delegates such as Func&lt;&gt; and Action&lt;&gt; types.</description>
+        <copyright>Copyright ©  2014</copyright>
+        <dependencies>
+            <dependency id="LinFu.DynamicProxy.OfficialRelease" version="1.0.5" />
+        </dependencies>
+    </metadata>
+    <files>
+      <file src="bin\Debug\LinFu.Delegates.dll" target="lib\net45\LinFu.Delegates.dll" />
+      <file src="bin\Debug\LinFu.Delegates.dll" target="lib\net45\LinFu.Delegates.pdb" />
+    </files>
+</package>
